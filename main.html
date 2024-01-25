@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href='styles.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azertype</title>
+    <script src="scripts/config.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="header" id="header">
+            <h1>Azertype</h1>
+            <p>The best typing challenge!</p>
+        </div>
+        <div>
+            <h2>Your score is : <span id="score">0</span></h2> 
+        </div>
+        <div class="content" id="content">
+            Type the following word : <span class="wordtotype" id='wordtotype'>First Word Will Appear Here!</span>
+        </div>
+        <div class="inputdiv" id="inputdiv">
+            <label for="userinput"><input maxlength="15" type="text" id="userinput" class="userinput" required></label>
+            <button class="submitbutton" type="submit" id="submitbutton">Submit (Enter)</button>
+        </div>
+    </div>
+</body>
+</html>
